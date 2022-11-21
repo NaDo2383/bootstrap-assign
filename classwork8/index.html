@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+</head>
+<body>
+    <h3 class="text-center">
+        Байгууллагын дотоод үйл ажиллагаан зориулсан судалгаанд тавтай морил
+    </h3>
+    <section>
+        <h5 class="ms-3 mt-3">Ерөнхий мэлээлэл</h5>
+        <dvi class="container ps-4">
+            <div class="row mb-3 ps-4">
+                <div class="col"> 
+                        <label  for="lastname" class="form-label">Овог</label> <span class="text-danger">*</span><br>
+                        <input type="text" required class="form-control" id="lastname">    
+                </div>
+                <div class="col">
+                    <label  for="city" class="form-label">Аймаг</label><br>
+                    <select id="city" class="form-select" placeholder="Сонгох">
+                        <option selected>Сонгох</option>
+                        <option value="1">Хот/Аймаг1</option>
+                        <option value="2">Хот/Аймаг2</option>
+                        <option value="3">Хот/Аймаг3</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row mb-3 ps-4">
+                <div class="col"> 
+                        <label  for="firstname" class="form-label">Нэр</label> <span class="text-danger">*</span><br>
+                        <input type="text" required class="form-control" id="firstname">    
+                </div>
+                <div class="col">
+                    <label  for="city" class="form-label">Сум</label><br>
+                    <select id="city" class="form-select" placeholder="Сонгох">
+                        <option selected>Сонгох</option>
+                        <option value="1">Сум1</option>
+                        <option value="2">Сум2</option>
+                        <option value="3">Сум3</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row mb-3 ps-4">
+                <div class="col"> 
+                        <label  for="age" class="form-label">Нас</label> <span class="text-danger">*</span><br>
+                        <input type="number" required class="form-control" id="age">    
+                </div>
+                <div class="col">
+                    <label  for="city" class="form-label">Баг</label><br>
+                    <select id="city" class="form-select" placeholder="Сонгох">
+                        <option selected>Сонгох</option>
+                        <option value="1">Баг1</option>
+                        <option value="2">Баг2</option>
+                        <option value="3">Баг3</option>
+                    </select>
+                </div>
+            </div>
+            <button type="button" class="btn btn-warning ms-4" >Хадгалах</button>
+        </div> 
+        <hr>
+    </section>
+    <section>
+         <h5 class="ms-3">Хэсэг1</h5>
+            <div class="row mb-3 ps-4 mt-4">
+                <div class="col-4">
+                    <label for="" required class="form-label">Үйл ажиллагаа 1</label><span class="text-danger">*</span>
+                </div>
+                <div class="col-6">
+                    <input type="text" class="form-control" required>
+                </div>                
+            </div> 
+            <div class="row mb-3 ps-4">
+                <div class="col-4">
+                    <label for="" required class="form-label">Үйл ажиллагаа 2</label><span class="text-danger">*</span>
+                </div>
+                <div class="col-6">
+                    <input type="text" class="form-control" required> 
+                </div>                
+            </div>
+            <div class="row mb-3 ps-4">
+                <div class="col-4">
+                    <label for="" required class="form-label">Үйл ажиллагаа 3</label>
+                </div>
+                <div class="col-6">
+                    <input type="text" class="form-control" disabled placeholder="Машин">
+                </div>                
+            </div>
+            <div class="row mb-3 ps-4">
+                <div class="col-4">
+                    <label for="" required class="form-label">Үйл ажиллагаа 4</label>
+                </div>
+                <div class="col-6">
+                    <div class="form-check">
+                        <input type="radio" class="form-check-input" id="act4yes" value="option1" name="yes/no">
+                        <label for="act4yes" class="form-check-label">Тийм</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" class="form-check-input" id="act4no" value="option2" name="yes/no">
+                        <label for="act4no" class="form-check-label">Үгүй</label>
+                    </div>
+                </div>                
+            </div>
+            <div class="row mb-3 ps-4">
+                <div class="col-4">
+                    <label for="" required class="form-label">Үйл ажиллагаа 5</label>
+                </div>
+                <div class="col-6">
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="act5-1" value="option1">
+                        <label for="act5-1" class="form-check-label">Шинэ жил</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="act5-2" value="option1">
+                        <label for="act5-2" class="form-check-label">Цагаан сар</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="act5-3" value="option1">
+                        <label for="act5-3" class="form-check-label">Наадам</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="act5-4" value="option1">
+                        <label for="act5-4" class="form-check-label">Хүүхдийн баяр</label>
+                    </div>
+                </div>              
+            </div> 
+            <hr>         
+    </section>
+        <h5 class="ms-3">Хэсэг2</h5>
+        <div class="row mb-3 ps-4">
+            <div class="col">
+                <input type="text" class="form-control" placeholder="name"> 
+            </div>
+            <div class="col">
+                <input type="text" class="form-control" placeholder="firstname">    
+            </div>
+        </div>
+        <div class="row mb-3 ps-4">
+            <div class="col">
+                <input type="text" class="form-control" placeholder="gender"> 
+            </div>
+            <div class="col">
+                <input type="number" class="form-control" placeholder="age">    
+            </div>
+        </div>
+        <div class="row mb-3 ps-4">
+            <div class="col-8">
+                <input type="text" class="form-control" placeholder="City"> 
+            </div>
+            <div class="col">
+                <input type="text" class="form-control" placeholder="State">    
+            </div>
+            <div class="col">
+                <input type="number" class="form-control" placeholder="Zip">    
+            </div>
+        </div>
+        <button type="button" class="btn btn-primary ms-4">Хадгалах</button><hr>
+
+    <section>
+        <h5 class="ms-3">Хэсэг3</h5>
+        
+    </section>
+</body>
+</html>
